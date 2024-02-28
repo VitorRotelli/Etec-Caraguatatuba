@@ -1,0 +1,27 @@
+:root{
+    --cinza-claro: #F8F8F8;
+    --azul-base: #005C6D;
+    --azul-titulos-hover: #005C6D;
+    --vermelho-base: #B20000;
+}
+
+/* Navbar */
+
+#navbar-customizada{
+    background-color: var(--cinza-claro) !important;
+}
+
+.navbar-nav{
+    gap: 20 px !important;
+}
+
+.nav-item a{
+    transition: 0.3s;
+}
+
+.nav-item a:hover{
+    color: var(--azul-titulos-hover);
+    border-bottom: 1px solid var(--azul-titulos-hover);
+}
+
+/* Fim Navbar */
